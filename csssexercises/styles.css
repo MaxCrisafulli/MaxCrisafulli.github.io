@@ -1,8 +1,21 @@
-p {
+#id1 {
   color:white;
   background-color:black;
+  font-size:12px;
 }
-h1 {
+#id2 {
   color:blue;
   background-color:orange
+}
+.bluex {
+  color:blue;
+  font-family:verdana;
+}
+.centre {
+  text-align: center;
+  color:red;
+}
+.bluev p {
+  color:blue;
+  font-family:verdana;
 }
