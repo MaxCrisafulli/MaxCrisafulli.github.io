@@ -1,1 +1,94 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML-Reference</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h3>Introduction</h3>
+    <p>HTML documents are made up of text that will appear on screen inbetween tags that give the text certain properties. Tags are often start with an opening tag &lt;exampletag> and end with a closing tag &lt;/exampletag></p>
+    <hr>
+   <h3>&lt;!DOCTYPE html></h3>
+   <p>HTML documents should begin with &lt;!DOCTYPE html> at the top of the page, which signifies that it is a html document</p>
+   <hr>
+     <h3>&lt;html></h3>
+   <p>The next tage should be the &lt;html> tag, it acts as a container for all the other html code (other than the &lt;!DOCTYPE> tag.</p>
+   <center><pre>
+     It appears on a html document as this,
+     &lt;!DOCTYPE>
+     &lt;html>
+     (html code)
+     &lt;/html>
+   </pre></center>
+    <hr>
+      <h3>&lt;header></h3>
+     <p>The header tag is used to denote more important information on a html document that will appear as visible text. Headers typically come at the beginning of a document and will house important links and headings. The header tags look like &lt;header> and &lt;/header>, with the information housed between the two tags. Header tags come inbetween the body tags.</p>
+   <hr>
+     <h3>&lt;title></h3>
+     <p>The &lt;title> and &lt;/title> tags are used to create the title element which gives the document that name that will appear in the internet browser. In the source code of this page in the meta data there is a title tag that says &lt;title>HTML-Reference&lt;/title> The title name should be between the two opening and closing tags.</p>
+     <hr>
+       <h3>&lt;body></h3>
+     <p>The body element (given by the tags &lt;body> and &lt;/body>) are used to define where the visible text of the html document will be, they come after the metadata and html tags. The body gives no visible rendering, but what comes between it will appear as visible text on a page</p>
+     <hr>
+       <h3>Headings</h3>
+     <p> The tag for making a header is the &lt;h1> and &lt;/h1> tags. The &lt;h1> tag comes before what you want to be a header, and the &lt;/h1> comes after. The sizes of the headings can be varied using numbers from 1 to 6</p><br>
+     An examples of this is
+     <h1>Heading 1</h1>
+     <h2>Heading 2</h2>
+     <h3>Heading 3</h3><br>
+     <hr>
+       <h3>&lt;p></h3>
+     <p>The paragraph element (given by the tags &lt;p> and &lt;/p>) are used to show a paragraph of information as text. They are commonly used in text based html documents. An example of the paragraph element is the text on this page, it is all house within a paragraph element. Use Ctrl+U to show the source code of this page to see how it looks.</p><br>
+     <hr>
+       <h3>&lt;br></h3>
+     <p>The break element is used to create a line break (like an enter on a keyboard) between the text in a paragraph. It is give by the tag &lt;br> with no end tag. It comes after the text that you want to be broken. In a html document the text will appear as This sentence &lt;br> should have &lt;br> 3 line breaks &lt;br> in it. In the webpage it will appear as <br>This sentence <br> should have <br> 3 line breaks <br> in it</nr></p>
+     <hr>
+       <h3>&lt;hr></h3>
+     <p>Line elements are used to create lines across the page that can be used to separate information from one another. It is given by the tag &lt;hr> which goes in between what ever text you want separated. The &lt;hr> tag has been used multiple times on this page already as the grey lines that separate the information about the different elements.</p>
+     <hr>
+       <h3>&lt;!--Comments--></h3>
+     <p>Comment tags are used to <!--this is a comment--> make text unreadable as html in order to leave notes on what the various html elements do within the document. Comments are given by the tag &lt;!--insert comment--> with the coment housed in side the single tag. <!--This is a comment--> For example, there are some tags within the this paragraph in the html code, use Ctrl+U to see them.</p>
+     <hr>
+       <h3>Links</h3>
+     <p>Links are used frequentley in html to link a html page to other html documents. The link element is given by using the attribute tag around the text that you want the link to appear as. The syntax of creating a link is such: &lt;a href="insert link here">Link Text &lt;/a>. For example, this is a link to the w3 schools website: <a href="https://www.w3schools.com/">W3 Schools</a>
+     <hr>
+       <h3>&lt;img></h3>
+     <p>The image element is used to import and display images on a html page. It is given by the tag<br><br> &lt;img src="url or file address" alt="what you want to appear if the image cannot load" style="width:(in pixels);height:(in pixels);"><br><br>Images cant be imported from local files or from a url address. For example an image imported from google that I want to be 50x50 and appear as "car" if it cannot load is this:</p> <img src="https://goo.gl/images/Qb5RKY" alt="car" style="width:50px;height:50px;">
+     <hr>
+       <h3>Lists</h3>
+     <p>The list element can be used to create both ordered and unordered lists of items in a html document. Unordered lists are given by the tag &lt;ul> and &lt;/ul> with the list items placed inbetween enclosed within in &lt;li> and &lt;/li> tags. For example, an unordered list would look like such:<br>
+     <pre>
+       &lt;ul>
+        &lt;li> List Item &lt;/li>
+        &lt;li> List Item &lt;/li>
+        &lt;li> List Item &lt;/li>
+       &lt;/ul>
+     </pre>
+     Ordered lists are created in a similiar format, except the tags &lt;ol> and &lt;/ol> are used. For example,
+     <pre>
+       &lt;ol>
+        &lt;li> List Item 1 &lt;/li>
+        &lt;li> List Item 2 &lt;/li>
+        &lt;li> List Item 3 &lt;/li>
+       &lt;/ol>
+     </pre>
+     The two lists above will appear as such in a html webpage:<br>
+      Ordered List: <ol>
+        <li> List Item 1 </li>
+        <li> List Item 2 </li>
+        <li> List Item 3 </li>
+       </ol>
+       Unordered List:
+       <ul>
+         <li>List Item</li>
+         <li>List Item</li>
+         <li>List Item</li>
+       </ul>
+     </p>
+     <hr>
+       <h3>Tables</h3>
+     <p>The table element is used to create tables of data that will appear as visible on the html webpage. </p>
+  </body>
+</html>
