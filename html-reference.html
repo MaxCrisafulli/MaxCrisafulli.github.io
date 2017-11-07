@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>HTML-Reference</title>
-    <link href="html-reference.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1>HTML Reference Page</h1>
-    <a href="https://maxcrisafulli.github.io/">Home Page</a>
+    <center>
     <table>
   <tr>
     <th>Name</th>
@@ -108,79 +108,141 @@
     <td>&lt;/div></td>
     <td>&lt;div><i>Block Elements</i>&lt;/div></td>
   </tr>
-  
 </table>
+</center>
 <hr>
+
     <h3>Introduction</h3>
-    <p>HTML documents are made up of text that will appear on screen inbetween tags that give the text certain properties. Tags are often start with an opening tag &lt;exampletag> and end with a closing tag &lt;/exampletag></p>
+    <p>HTML documents are made up of text that will appear on screen inbetween tags that give the text certain properties. </p>
+    <h4>Syntax</h4>
+     <p>Tags are start with an opening tag &lt;exampletag> and end with a closing tag &lt;/exampletag></p>
     <a href="https://www.w3schools.com/html/html_intro.asp">W3 Schools Link</a>
     <hr>
+    
    <h3>&lt;!DOCTYPE html></h3>
    <p>HTML documents should begin with &lt;!DOCTYPE html> at the top of the page, which signifies that it is a html document</p>
+   <h4>Syntax</h4>
+   <p>The &lt;!DOCTYPE html> appears at the very top of the page, and encompasses all other code. There is no end tag for this element</p>
    <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools Link</a>
    <hr>
-     <h3>&lt;html></h3>
-   <p>The next tage should be the &lt;html> tag, it acts as a container for all the other html code (other than the &lt;!DOCTYPE> tag.</p>
-   <center><pre>
-     It appears on a html document as this,
+   
+  <h3>&lt;html></h3>
+   <p>The next tag should be the &lt;html> tag, it acts as a container for all the other html code (other than the &lt;!DOCTYPE> tag.</p>
+   <h4>Syntax</h4>
+   <pre>
      &lt;!DOCTYPE>
-     &lt;html>
-     (html code)
-     &lt;/html>
-   </pre></center>
+      &lt;html>
+       <i>insert html code</i>
+      &lt;/html>
+   </pre>
    <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools Link</a>
     <hr>
+    
       <h3>&lt;header></h3>
-     <p>The header tag is used to denote more important information on a html document that will appear as visible text. Headers typically come at the beginning of a document and will house important links and headings. The header tags look like &lt;header> and &lt;/header>, with the information housed between the two tags. Header tags come inbetween the body tags.</p>
+      <p>The header tag is used to denote more important information on a html document that will appear as visible text. Headers typically come at the beginning of a document and will house important links and headings. 
+      
+     <h4>Syntax</h4>
+     <p>The header tags look like &lt;header> and &lt;/header>, with the information housed between the two tags.</p>
      <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools Link</a>
    <hr>
+   
      <h3>&lt;title></h3>
      <p>The &lt;title> and &lt;/title> tags are used to create the title element which gives the document that name that will appear in the internet browser. In the source code of this page in the meta data there is a title tag that says &lt;title>HTML-Reference&lt;/title> The title name should be between the two opening and closing tags.</p>
+     <h4>Syntax</h4>
+     <p>&lt;title><i>insert title here</i>&lt;/title></p>
+     <h4>Example</h4>
+     <p>This pages name in the browser is "HTML-Reference"</p>
      <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools Link</a>
      <hr>
-       <h3>&lt;body></h3>
-     <p>The body element (given by the tags &lt;body> and &lt;/body>) are used to define where the visible text of the html document will be, they come after the metadata and html tags. The body gives no visible rendering, but what comes between it will appear as visible text on a page</p>
+     
+     <h3>&lt;body></h3>
+     <p>The body element is used to define where the visible text of the html document will be, they come after the metadata and html tags. The body gives no visible rendering, but what comes between it will appear as visible text on a page</p>
+     <h4>Syntax</h4>
+     <p>&lt;body><br>
+     <i>Insert body code here</i><br>
+     &lt;/body></p>
      <a href="https://www.w3schools.com/html/html_basic.asp">W3 Schools Link</a>
      <hr>
-       <h3>Headings</h3>
-     <p> The tag for making a header is the &lt;h1> and &lt;/h1> tags. The &lt;h1> tag comes before what you want to be a header, and the &lt;/h1> comes after. The sizes of the headings can be varied using numbers from 1 to 6</p><br>
-     An examples of this is
+     
+     <h3>Headings</h3>
+     <p> Headings are elements used to make certain text larger, and more noticible for the purpose of making it a heading The sizes of the headings can be varied using numbers from 1 to 6 after the h in the tag</p>
+     <h4>Syntax</h4>
+     <p>&lt;h1><i>Insert Heading Text Here</i> &lt;/h1></p>
+     <h4>Example</h4>
      <h1>Heading 1</h1>
      <h2>Heading 2</h2>
      <h3>Heading 3</h3><br>
        <a href="https://www.w3schools.com/html/html_headings.asp">W3 Schools Link</a>
      <hr>
-       <h3>&lt;p></h3>
-     <p>The paragraph element (given by the tags &lt;p> and &lt;/p>) are used to show a paragraph of information as text. They are commonly used in text based html documents. An example of the paragraph element is the text on this page, it is all house within a paragraph element. Use Ctrl+U to show the source code of this page to see how it looks.</p><br>
-           <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools Link</a>
+     
+     <h3>&lt;p></h3>
+     <p>The paragraph element is used to show a paragraph of information as text. They are commonly used in text based html documents and are the most common tag.</p>
+     <h4>Syntax</h4>
+     &lt;p><i>insert paragraph text here</i>&lt;/p>
+     <h4>Example</h4>
+     <p>This is an example paragraph</p>
+     <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools Link</a>
      <hr>
+     
        <h3>&lt;br></h3>
-     <p>The break element is used to create a line break (like an enter on a keyboard) between the text in a paragraph. It is give by the tag &lt;br> with no end tag. It comes after the text that you want to be broken. In a html document the text will appear as This sentence &lt;br> should have &lt;br> 3 line breaks &lt;br> in it. In the webpage it will appear as <br>This sentence <br> should have <br> 3 line breaks <br> in it</nr></p>
-          <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools Link</a>
+     <p>The break element is used to create a line break (like an enter on a keyboard) between the text in a paragraph.
+      <h4>Syntax</h4>
+      <p>The br tag is placed after the word you want to break to occur after, word 1 &lt;br> will make a line break after word 1</p>
+      <h4>Example</h4>
+      <p><br>This sentence <br> should have <br> 3 line breaks <br> in it</p>
+      <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3 Schools Link</a>
      <hr>
-       <h3>&lt;hr></h3>
-     <p>Line elements are used to create lines across the page that can be used to separate information from one another. It is given by the tag &lt;hr> which goes in between what ever text you want separated. The &lt;hr> tag has been used multiple times on this page already as the grey lines that separate the information about the different elements.</p>
+     
+     <h3>&lt;hr></h3>
+     <p>Line elements are used to create lines across the page that can be used to separate information from one another. 
+      <h4>Syntax</h4>
+      <p>The tag is &lt;hr> without an end tag, it is placed after the text that you want the line to appear after </p>
+      <h4>Example</h4>
+      <p>The &lt;hr> tag has been used multiple times on this page already as the grey lines that separate the information about the different elements.</p>
          <a href="https://www.w3schools.com/tags/tag_hr.asp">W3 Schools Link</a>
      <hr>
-       <h3>&lt;!--Comments--></h3>
-     <p>Comment tags are used to <!--this is a comment--> make text unreadable as html in order to leave notes on what the various html elements do within the document. Comments are given by the tag &lt;!--insert comment--> with the coment housed in side the single tag. <!--This is a comment--> For example, there are some tags within the this paragraph in the html code, use Ctrl+U to see them.</p>
+     
+      <h3>&lt;!--Comments--></h3>
+     <p>Comment tags are used to <!--this is a comment--> make text unreadable as html in order to leave notes on what the various html elements do within the document.
+     <h4>Syntax</h4>
+     <p>Comments are given by the tag &lt;!--insert comment--> with the coment housed in side the single tag.</p> <!--This is a comment-->
+     <h4>Example</h4>
+     <p>There are some tags within this paragraph in the html code, use Ctrl+U to see them.</p>
      <a href="https://www.w3schools.com/html/html_comments.asp">W3 Schools Link</a>
      <hr>
-       <h3>Links</h3>
-     <p>Links are used frequentley in html to link a html page to other html documents. The link element is given by using the attribute tag around the text that you want the link to appear as. The syntax of creating a link is such: &lt;a href="insert link here">Link Text &lt;/a>. For example, this is a link to the w3 schools website: <a href="https://www.w3schools.com/">W3 Schools</a><br>
+     
+     <h3>Links</h3>
+     <p>Links are used frequently in html to link a html page to other html documents. They are used to link CSS style sheets as well as other html pages to a html document
+     <h4>Syntax</h4>
+     <p>The link element is given by using the attribute tag around the text that you want the link to appear as.
+     &lt;a href="insert link here">Link Text &lt;/a>.
+     <h4>Example</h4>
+     <p>This is a link to the W3 schools homepage: <a href="https://www.w3schools.com/">W3 Schools</a></p><br>
      <a href="https://www.w3schools.com/html/html_attributes.asp">W3 Schools Link</a>
      <hr>
+     
        <h3>&lt;img></h3>
-     <p>The image element is used to import and display images on a html page. It is given by the tag<br><br> &lt;img src="url or file address" alt="what you want to appear if the image cannot load" style="width:(in pixels);height:(in pixels);"><br><br>Images cant be imported from local files or from a url address. For example an image imported from the images folder that I want to be 50x50 and appear as "car" if it cannot load is this:</p> <img src="/Images/ferrari-gtc4lusso.jpg" alt="car" style="width:50px;height:50px;">
+      <p>The image element is used to import and display images on a html page.Images can be imported from local files or from a url address.
+      <h4>Syntax</h4>
+      <p>The tag &lt;img src="url or file address" alt="what you want to appear if the image cannot load" style="width:(in pixels);height:(in pixels);"> is used to import and image to the html document</p>
+      <h4>Example</h4>
+        <p>For example an image imported from the images folder that I want to be 50x50 and appear as "car" if it cannot load is this:</p> <img src="/Images/ferrari-gtc4lusso.jpg" alt="car" style="width:50px;height:50px;"><br>
      <a href="https://www.w3schools.com/html/html_images.asp">W3 Schools Link</a>
      <hr>
+     
      <h3>Blocks</h3>
-     <p>Blocks are used to designate certain blocks of texts so that styles,CSS< or other forms of formatting can be applied to it.The syntax of the block element is the text that you want in a blocks placed in between a starting &lt;div> tag and a ending &lt;/div> tag. For example, a sentence with the centre mad red using a block element would look like so in a browser:</p>
-     <p>The centre <div style="color:red">of this sentence will appear</div> red due to a block element being applied to it.</p>
+     <p>Blocks are used to designate certain blocks of texts so that styles,CSS< or other forms of formatting can be applied to it.</p>
+     <h4>Syntax</h4>
+     <p>The syntax of the block element is the text that you want in a blocks placed in between a starting &lt;div> tag and a ending &lt;/div> tag.</p>
+     <h4>Example</h4>
+     <p>The centre <div style="color:red">of this sentence will appear</div> red due to a block element being applied to it.
      <a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools Link</a>
      <hr>
+     
        <h3>Lists</h3>
-     <p>The list element can be used to create both ordered and unordered lists of items in a html document. Unordered lists are given by the tag &lt;ul> and &lt;/ul> with the list items placed inbetween enclosed within in &lt;li> and &lt;/li> tags. For example, an unordered list would look like such:<br>
+     <p>The list element can be used to create both ordered and unordered lists of items in a html document.
+     <h4>Syntax</h4>
+     <p>Unordered lists are given by the tag &lt;ul> and &lt;/ul> with the list items placed inbetween enclosed within in &lt;li> and &lt;/li> tags. For example, an unordered list would look like such:</p><br>
      <pre>
        &lt;ul>
         &lt;li> List Item &lt;/li>
@@ -196,6 +258,7 @@
         &lt;li> List Item 3 &lt;/li>
        &lt;/ol>
      </pre>
+     <h4>Example</h4>
      The two lists above will appear as such in a html webpage:<br>
       Ordered List: <ol>
         <li> List Item 1 </li>
@@ -212,7 +275,10 @@
       <a href="https://www.w3schools.com/html/html_lists.asp">W3 Schools Link</a>
      <hr>
        <h3>Tables</h3>
-     <p>The table element is used to create tables of data that will appear as visible on the html webpage. The syntax of the table element consists of the following:<pre>
+     <p>The table element is used to create tables of data that will appear as visible on the html webpage. 
+     <h4>Syntax</h4>
+     <p>The syntax of the table element consists of the following:</p>
+     <pre>
   &lt;table> (opening table tag)
    &lt;tr> (top row tag)
     &lt;th>Heading 1&lt;/th> (heading item 1 of top row)
@@ -231,6 +297,7 @@
    &lt;/tr> (second row end tag)
 &lt;/table> (ending table tag)
 
+<h4>Example</h4>
 <p>This code will appear in a browser as:</p>
   <table> 
    <tr> 
