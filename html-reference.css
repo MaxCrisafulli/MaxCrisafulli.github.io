@@ -1,16 +1,19 @@
-
+/*font of body*/
 .font {
-  font-family:Arial;
+  font-family:Verdana;
 }
 
+/*background colour*/
 .bkclr {
   background-color:#fcfdff;
 }
 
+/*table code font*/
 .codefont {
   font-family:Monospace;
 }
 
+/*table style CSS*/
 table, td, th {
     border: 1px solid black;
 }
@@ -23,16 +26,39 @@ table {
 td {
     height: 50px;
     vertical-align: bottom;
+    text-align:center;
+    padding:5px;
 }
 
+/*table heading*/
+.tableheading {
+  background-color:black;
+  color:white;
+}
+
+
+/*heading CSS*/
 h1,h3 {
+  font-family:"Open Sans";
   border-color:black;
   color:white;
   background-color:black;
   padding:4px;
+  text-transform:uppercase;
+  text-align:center;
 }
-
+ /*sub heading CSS*/
 h4 {
   font-weight:bold;
   text-decoration:underline
+}
+
+/*override of heading properties in CSS for example*/
+.hexample {
+  background-color:white;
+  color:black;
+  font-weight:bold;
+  font-family:Arial;
+  text-align:left;
+  text-transform:initial;
 }
