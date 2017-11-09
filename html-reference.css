@@ -5,7 +5,7 @@
 
 /*background colour*/
 .bkclr {
-  background-color:#fcfdff;
+  background-color:#ffffff;
 }
 
 /*table code font*/
@@ -32,8 +32,9 @@ td {
 
 /*table heading*/
 .tableheading {
-  background-color:black;
-  color:white;
+  background-color:white;
+  color:black;
+  font-weight:bold;
 }
 
 
@@ -62,4 +63,3 @@ h4 {
   text-align:left;
   text-transform:initial;
 }
-
