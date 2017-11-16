@@ -10,6 +10,10 @@ h1, h2 {
   text-align:center;
 }
 
+.center {
+  text-align:center;
+}
+
 /* Style the header */
 .header {
     background-color: #5b503b;
@@ -92,6 +96,28 @@ p, h2, h1 {
   padding:20px;
 }
 
+.text {
+  border:1px;
+  background-color:#dbd7a6;
+}
+
+.text img {
+  width:100%;
+  padding:10px;
+}
+
+.text p, li, ul {
+  width:100%;
+  padding:5px;
+}
+
+
+.maint {
+    border:1px;
+  background-color:#dbd7a6;
+  padding:20px;
+}
+
 /*footer text align*/
 .footerleft {
   text-align:left;
@@ -120,6 +146,16 @@ p, h2, h1 {
 .content p, h1, h2 {
   font-family:"Ariel", sans-serif;
   color:black;
+}
   
+.back {
+  background-color: #5b503b;
+}
 
-  
+.centre {
+padding-left:100px;
+}
+
+.bold {
+  font-weight:bold;
+}
