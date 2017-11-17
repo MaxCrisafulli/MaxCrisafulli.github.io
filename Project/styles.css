@@ -164,8 +164,10 @@ p, h2, h1 {
   background-color: #5b503b;
 }
 
+/*keeps the list section centered*/
 .centre {
-padding-left:100px;
+padding-left:50px;
+padding-right:50px;
 }
 
 .bold {
@@ -184,6 +186,7 @@ padding-left:100px;
   padding:10px;
 }
 
+/*background for the index section*/
 .indexbackground {
   background-color:#5b503b;
 }
@@ -193,8 +196,9 @@ padding-left:100px;
   padding:20px;
   width:100%;
 }
+ 
+/*table font*/
+td,tr,th {
+  font-family:Arial;
+}
 
-
-
-
-  
