@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+p, li{
+  font-family:Arial;
+}
+
 body {
   margin: 0;
 }
@@ -47,6 +51,11 @@ h1, h2 {
 /* indicate active page on nav */
 .active {
     background-color: #dbd7a6;
+}
+
+.activetext {
+    color: #5b503b;
+    font-weight:bold;
 }
 
 /* A - Create three unequal columns that floats next to each other */
@@ -99,6 +108,7 @@ p, h2, h1 {
 .text {
   border:1px;
   background-color:#dbd7a6;
+  padding:5px;
 }
 
 .text img {
@@ -121,6 +131,7 @@ p, h2, h1 {
 /*footer text align*/
 .footerleft {
   text-align:left;
+  font-size:15px;
 }
 
 /*subheadings CSS*/
@@ -133,7 +144,7 @@ p, h2, h1 {
 }
 
 .h1width {
-  width:500px;
+  width:100%;
   margin:auto;
 }
 
@@ -159,3 +170,24 @@ padding-left:100px;
 .bold {
   font-weight:bold;
 }
+
+/*formatting for numbers column text*/
+.list {
+ width:75%;
+ padding:20px;
+}
+
+/*formatting for the embedded video*/
+.video iframe {
+  width:100%;
+  padding:10px;
+}
+
+.indexbackground {
+  background-color:#5b503b;
+}
+
+
+
+
+  
