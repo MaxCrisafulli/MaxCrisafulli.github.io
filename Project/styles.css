@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-p, li{
+p, li, h3{
   font-family:Arial;
 }
 
@@ -94,6 +94,7 @@ h1, h2 {
     padding: 10px;
     text-align: center;
     color:black;
+    width:100%;
     
 }
 
@@ -185,6 +186,12 @@ padding-left:100px;
 
 .indexbackground {
   background-color:#5b503b;
+}
+
+/*website table styling*/
+.table {
+  padding:20px;
+  width:100%;
 }
 
 
